@@ -1,0 +1,32 @@
+name: fancyscroll_swiper_view
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  animated_text_kit: ^4.2.2
+  flutter:
+    sdk: flutter
+  flutter_swiper_view: ^1.1.8
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Pacifico
+      fonts:
+        - asset: fonts/Pacifico-Regular.ttf
+    - family: Tektur
+      fonts:
+        - asset: fonts/Tektur_SemiCondensed-SemiBold.ttf
+  assets:
+    - images/
+  
